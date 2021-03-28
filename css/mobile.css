@@ -1,8 +1,10 @@
 :root {
+    --black1: #000;
+    --black2: #18181b;
+    --black3: #202020;
     --blue1: #007ec8;
     --blue2: #3aa3e0;
-    --white1: #fff;
-    --white2: #f1f1f1;
+    --blue3: #105e8b;
     --gray1: #52504e;
     --gray2: #636161;
     --gray3: #5a5a5a;
@@ -11,9 +13,8 @@
     --gray6: #cacfd1;
     --orange1: #cc760c;
     --orange2: #f7931a;
-    --black1: #000;
-    --black2: #18181b;
-    --black3: #202020;
+    --white1: #fff;
+    --white2: #f1f1f1;
 }
 
 * {
@@ -34,7 +35,7 @@ header {
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: 310px;
+    height: 320px;
     margin-top: 0px;
     text-align: center;
     background: linear-gradient(207.8deg, var(--black1) 16.69%, var(--gray1) 100%);
@@ -44,7 +45,7 @@ header {
 header img {
     width: 150px;
     height: 150px;
-    margin-top: 30px;
+    margin-top: 50px;
     border-radius: 50%;
     border: 3px solid var(--blue1);
     align-self: center;
@@ -67,30 +68,11 @@ header img {
 }
 
 .div__maindata h2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 300;
     line-height: 2.6rem;
     color: var(--gray5);
     margin-top: 10px;
-}
-
-.div__maindata p {
-    position: absolute;
-    left: calc(50% - 80px);
-    top: 252px;
-    display: block;
-    margin-top: 35px;
-    padding: 15px;
-    width: 160px;
-    height: 48px;
-    background-color: var(--blue1);
-    box-shadow: 10px -5px 20px var(--black2);
-    border: none;
-    border-radius: 5px;
-    font-size: 1.4rem;
-    font-weight: bold;
-    text-decoration: none;
-    color:var(--black2);
 }
 
 main {
@@ -100,8 +82,20 @@ main {
 }
 
 .section__business {
-    padding-top: 25px;
-    padding-bottom: 38px;
+    padding-bottom: 1px;
+}
+
+.section__business--title, .section__featured--title {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    text-align: center;
+    background-color: var(--blue3);
+    color: var(--white2);
+    box-shadow: 0px 10px 15px var(--black2);
 }
 
 .article__businesscard {
@@ -134,44 +128,24 @@ main {
 
 .article__businesscard--position {
     margin-top: 20px;
-    font-size: 1.4rem;
-    font-weight: 500;
+    font-size: 1.6rem;
+    font-weight: 300;
     line-height: 1.8rem;
     color: var(--gray2);
 }
 
 .article__businesscard .article__businesscard--body {
     margin-top: 10px;
-    font-size: 1.3rem;
-    font-weight: 500;
+    font-size: 1.4rem;
+    font-weight: 300;
     line-height: 1.8rem;
+    text-align: justify;
     color: var(--gray4);
 }
 
 .section__featured {
-    padding-top: 26px;
-    padding-bottom: 20px;
+    padding-bottom: 1px;
     background-color: var(--gray1);
-}
-
-.div__featured p {
-    position: absolute;
-    left: calc(50% - 80px);
-    top: 1530px;
-    display: block;
-    margin-top: 30px;
-    padding: 15px;
-    width: 160px;
-    height: 48px;
-    background-color: var(--blue1);
-    box-shadow: -10px 5px 20px var(--black2);
-    border: none;
-    border-radius: 5px;
-    font-size: 1.4rem;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
-    color:var(--black2);
 }
 
 .article__featuredcard {
@@ -198,9 +172,10 @@ main {
 
 .article__featuredcard--body {
     margin-top: 10px;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 300;
     line-height: 1.8rem;
+    text-align: justify;
     color: var(--gray6);
 }
 
