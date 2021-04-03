@@ -2,6 +2,7 @@
     --black1: #000;
     --black2: #18181b;
     --black3: #202020;
+    --black4: #262626;
     --blue1: #007ec8;
     --blue2: #3aa3e0;
     --blue3: #105e8b;
@@ -179,6 +180,13 @@ main {
     color: var(--gray6);
 }
 
+.article__featuredcard--body .referencias {
+    color: var(--white1);
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none;
+}
+
 footer {
     display: flex;
     width: 100%;
@@ -224,9 +232,9 @@ footer {
 }
 
 .article__contact--table .table__right {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 300;
-    line-height: 2.5rem;
+    line-height: 3.5rem;
     color: var(--gray5);    
 }
 
@@ -245,18 +253,30 @@ footer {
     width: 200px;
     font-size: 1.5rem;
     font-weight: 300;
-    line-height: 2.8rem;
+    line-height: 3.0rem;
     text-decoration: none;
     text-transform: none;
     margin-left: 20px;
     color: var(--gray4);
 }
 
+.article__links--table .table__left a .github {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    margin-right: 7px;
+    vertical-align: sub;
+    background-image: url("../assets/icons/github.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .article__links--table .table__left a .linkedin {
     display: inline-block;
     width: 19px;
     height: 19px;
-    margin-left: 5px;
+    margin-right: 7px;
     vertical-align: sub;
     background-image: url("../assets/icons/linkedin.ico");
     background-size: cover;

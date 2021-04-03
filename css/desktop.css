@@ -1,4 +1,61 @@
+:root {
+    --black4: #262626;
+}
+
+html {
+    margin: 50px 200px 0px;
+    background-color: var(--black4);
+}
+
+.div__maindata h1 {
+    font-size: 2.8rem;
+}
+
+.div__maindata h2 {
+    font-size: 2.1rem;
+}
+
+.section__business--title, .section__featured--title {
+    font-size: 2.0rem;
+}
+
+.article__businesscard--title .year {
+    font-size: 1.8rem;
+}
+
+.article__businesscard--position {
+    font-size: 1.8rem;
+}
+
+.article__businesscard .article__businesscard--body {
+    font-size: 1.5rem;
+}
+
+.article__featuredcard--year {
+    font-size: 1.8rem;
+}
+
+.article__featuredcard--body {
+    font-size: 1.5rem;
+}
+
 footer {
     min-height: 250px;
     height: auto;
+}
+
+.article__contact--title, .article__links--title {
+    font-size: 2.8rem;
+}
+
+.article__contact--table .table__left {
+    font-size: 1.5rem;
+}
+
+.article__contact--table .table__right {
+    font-size: 1.5rem;
+}
+
+.article__contact, .article__links {
+    margin: 50px auto;
 }
