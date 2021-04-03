@@ -227,7 +227,7 @@ footer {
     padding-left: 20px;
     font-size: 1.4rem;
     font-weight: 500;
-    line-height: 2.5rem;
+    line-height: 3.5rem;
     color: var(--orange1);
 }
 
@@ -253,7 +253,7 @@ footer {
     width: 200px;
     font-size: 1.5rem;
     font-weight: 300;
-    line-height: 3.0rem;
+    line-height: 3.5rem;
     text-decoration: none;
     text-transform: none;
     margin-left: 20px;
