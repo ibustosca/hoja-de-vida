@@ -1,5 +1,5 @@
 # Hoja de vida
-Este proyecto es una hoja de vida laboral y está construido con HTML5 y CSS3.
+Este proyecto es una hoja de vida laboral y está construido con HTML5 y CSS3. A continuación, te presento un par de imágenes para que veas el resultado:
 
 ![image](https://user-images.githubusercontent.com/64162717/113492816-cc705180-94b0-11eb-970d-47bb5514ba7a.png)
 
