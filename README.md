@@ -9,6 +9,6 @@ Este proyecto es una hoja de vida laboral y está construido con HTML5 y CSS3 en
 
 Puedes cambiar las imágenes, íconos o tipografía y adaptarlo a tus necesidades.
 
-La funcionalidad para descargar el Curriculum en formato PDF aun no está construída, por lo que espero en una próxima versión incluirla.
+La funcionalidad para descargar la hoja de vida en formato PDF aun no está construída, por lo que espero en una próxima versión incluirla.
 
 Espero te sirva!
